@@ -42,11 +42,11 @@ Visual Studio bietet verschiedene Arten von Windows, z. B. Toolfenster Dokumentf
   
  Sie können Tool Window-Ereignissen abonnieren: [Abonnieren eines Ereignisses](../extensibility/subscribing-to-an-event.md).  
   
-## <a name="extending-existing-tool-windows"></a>Erweitern Sie vorhandene Tool Windows  
- Sie können Informationen über das Toolfenster hinzufügen, um ein neues **Optionen** Seite und eine neue Einstellung für die **Eigenschaften** Seite, das Schreiben auf die **Aufgabenliste** und **Ausgabe**  Windows. Weitere Informationen finden Sie unter [erweitern die Eigenschaften, Aufgabenliste, Ausgabe und Optionen für Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md) und [erweitern die Eigenschaften, Aufgabenliste, Ausgabe und Optionen Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md).  
+## <a name="extending-existing-tool-windows"></a>Erweitern Sie vorhandene Tool-Windows  
+ Sie können Informationen über ihr Toolfenster in eine neue **Optionen**-Seite und eine neue Einstellung für die **Eigenschaften**-Seite hinzufügen, oder in die **Aufgabenliste** und das **Ausgabe** -Fenster schreiben. Weitere Informationen finden Sie unter [erweitern die Eigenschaften, Aufgabenliste, Ausgabe und Optionen für Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md) und [erweitern die Eigenschaften, Aufgabenliste, Ausgabe und Optionen Windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md).  
   
 ## <a name="modal-dialog-boxes"></a>Modale Dialogfelder  
- In Visual Studio-Erweiterung sollten Sie modale Dialogfelder erstellen, durch das Ableiten von <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, sodass Sie sie und den Rest der Benutzeroberfläche zu steuern. Weitere Informationen finden Sie unter . [Erstellen und Verwalten von modalen Dialogfeldern](../extensibility/creating-and-managing-modal-dialog-boxes.md).  
+ In Visual Studio-Erweiterung sollten Sie modale Dialogfelder erstellen, indem Sie von  <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName> ableiten, was die Kontrolle darüber und über den Rest der Benutzeroberfläche ermöglicht. Weitere Informationen finden Sie unter [Erstellen und Verwalten von modalen Dialogfeldern](../extensibility/creating-and-managing-modal-dialog-boxes.md).  
   
 ## <a name="see-also"></a>Siehe auch  
  [Erstellen einer Erweiterung mit einem Toolfenster](../extensibility/creating-an-extension-with-a-tool-window.md)
